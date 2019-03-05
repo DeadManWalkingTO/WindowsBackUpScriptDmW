@@ -23,7 +23,7 @@ rem Don't echo to standard output
 cls
 @echo off
 rem Set Version info
-set V=1.4.7
+set V=1.4.8
 rem Change colors
 color 1F
 rem Set Author
@@ -33,7 +33,7 @@ set ProgramName=WindowsBackUpScriptDmW
 rem Set Title
 title %ProgramName% By %Author%
 rem Set Size
-mode con: cols=120 lines=60
+mode con: cols=120 rem lines=60
 
 Rem ========== Start ==========
 :start
@@ -81,7 +81,7 @@ echo args = "ELEV " >> "%vbsGetPrivileges%"
 echo For Each strArg in WScript.Arguments >> "%vbsGetPrivileges%"
 echo args = args ^& strArg ^& " "  >> "%vbsGetPrivileges%"
 echo Next >> "%vbsGetPrivileges%"
-echo UAC.ShellExecute "!batchPath!", args, "", "runas", 1 >> "%vbsGetPrivileges%"
+echo UAC.ShellExecute "!batchPath!", args, "", "runas", 3 >> "%vbsGetPrivileges%"
 "%SystemRoot%\System32\WScript.exe" "%vbsGetPrivileges%" %*
 exit /B
 
