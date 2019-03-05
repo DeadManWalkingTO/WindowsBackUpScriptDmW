@@ -1,5 +1,6 @@
 rem Copyright 2019 DeadManWalking (DeadManWalkingTO-GitHub), <https://github.com/DeadManWalkingTO>, <deadmanwalkingto@gmail.com>
 
+:customcode
 cls
 rem ==================== Your Code Starts Here ====================
 rem ==================== Your Code Starts Here ====================
@@ -17,6 +18,7 @@ rem ==================== Your Code Ends Here ====================
 cls
 
 rem ========== Pre ==========
+:pre
 cls
 rem Don't echo to standard output
 cls
@@ -33,6 +35,7 @@ rem Set title
 title %ProgramName% By %Author%
 
 Rem ========== Start ==========
+:start
 cls
 echo ###############################################################################
 echo.
@@ -88,7 +91,7 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul & shift /1)
 
 
 rem ========== Initializing ==========
-
+:initializing
 rem Set RarPath
 reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32BIT || set OS=64BIT
 rem if %OS%==32BIT echo This is a 32bit operating system
@@ -110,7 +113,7 @@ set FullCommand=%RarPath% %RarOptions% %OutputPath%---%BackUpDate% %InputPath%
 rem echo %FullCommand%
 
 rem ========== Run ==========
-
+:run
 rem Change Directory
 echo ==================================================
 echo Change Directory
@@ -142,7 +145,6 @@ echo.
 timeout 1 > nul
 
 rem ========== Finish ==========
-
 :finish
 echo.
 echo ###############################################################################
