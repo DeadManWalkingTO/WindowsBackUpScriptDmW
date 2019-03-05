@@ -47,7 +47,7 @@ echo ###########################################################################
 echo.
 echo %ProgramName%
 echo 1. BackUp.
-echo 2. Compress.
+echo 2. Compress (Rar Best).
 echo 3. Save.
 echo.
 echo Additional:
