@@ -24,7 +24,7 @@ rem Don't echo to standard output
 cls
 @echo off
 rem Set Version info
-set V=1.4.5
+set V=1.4.6
 rem Change colors
 color 1F
 rem Set Author
