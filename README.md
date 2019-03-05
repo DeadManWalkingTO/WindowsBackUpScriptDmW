@@ -39,7 +39,7 @@ Uses [WinRar](www.win-rar.com) command line program for compression.
 
 ## Features
 1. BackUp
-2. Compress
+2. Compress (Rar Best)
 3. Save
 
 ## Download
