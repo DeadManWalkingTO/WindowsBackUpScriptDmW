@@ -8,7 +8,6 @@ rem ==================== Your Code Starts Here ====================
 
 rem Set InputPath
 set InputPath=C:\Docs
-
 rem Set Output Filename
 set OutputFilename=BackUp
 
@@ -24,15 +23,17 @@ rem Don't echo to standard output
 cls
 @echo off
 rem Set Version info
-set V=1.4.6
+set V=1.4.7
 rem Change colors
 color 1F
 rem Set Author
 set Author=DeadManWalking (DeadManWalkingTO-GitHub)
 Rem Set Program Name
 set ProgramName=WindowsBackUpScriptDmW
-rem Set title
+rem Set Title
 title %ProgramName% By %Author%
+rem Set Size
+mode con: cols=120 lines=60
 
 Rem ========== Start ==========
 :start
@@ -72,7 +73,7 @@ if '%errorlevel%' == '0' ( goto gotPrivileges ) else ( goto getPrivileges )
 if '%1'=='ELEV' (echo ELEV & shift /1 & goto gotPrivileges)
 echo.
 echo ###############################################################################
-echo #  Invoking UAC for Privilege Escalation                                      #
+echo   Invoking UAC for Privilege Escalation
 echo ###############################################################################
 
 echo Set UAC = CreateObject^("Shell.Application"^) > "%vbsGetPrivileges%"
@@ -88,7 +89,6 @@ exit /B
 setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul & shift /1)
-
 
 rem ========== Initializing ==========
 :initializing
