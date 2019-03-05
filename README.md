@@ -19,7 +19,7 @@
 
 > Windows BackUp Script by [DeadManWalking (DeadManWalkingTO-GitHub)](https://github.com/DeadManWalkingTO)
 
-WindowsBackUpScriptDmW is a backup script for all Microsoft Windows versions (XP/Vista/7/8/8.1/10) 32 and 64 bit. 
+WindowsBackUpScriptDmW is a backup script for all Microsoft Windows versions (XP/Vista/7/8/10) 32 and 64 bit. 
 
 Uses [WinRar](https://www.win-rar.com) command line program for compression.
 - RAR 3.61   Copyright (c) 1993-2006 Alexander Roshal   14 Sep 2006 (Shareware version)
