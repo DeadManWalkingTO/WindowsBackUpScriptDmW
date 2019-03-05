@@ -39,6 +39,8 @@ Uses [WinRar](www.win-rar.com) command line program for compression.
 
 ## Features
 1. BackUp
+2. Compress
+3. Save
 
 ## Download
 Download [Last release here.](../../releases/latest)
@@ -48,7 +50,7 @@ Script (No installation required)
 
 ## Usage
 * Download or Clone
-* Unzip
+* Unzip to an external BackUp Drive or Disk/Partition
 * Run "WindowsBackUpScriptDmW.bat". (Automatically Check & Get Admin Rights)
 
 ## Feedback
