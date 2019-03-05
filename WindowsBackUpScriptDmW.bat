@@ -9,7 +9,7 @@ rem Set InputPath
 set InputPath=C:\Docs
 
 rem Set Output Filename
-set OutputFilename=BackUp-04
+set OutputFilename=BackUp
 
 rem ==================== Your Code Ends Here ====================
 rem ==================== Your Code Ends Here ====================
