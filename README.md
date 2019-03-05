@@ -1,7 +1,4 @@
 # WindowsBackUpScriptDmW
-
-
-# WindowsBackUpScriptDmW
 [![HitCount](http://hits.dwyl.io/DeadManWalkingTO/WindowsBackUpScriptDmW.svg)](../../)
 [![GitHub release](https://img.shields.io/github/release/DeadManWalkingTO/WindowsBackUpScriptDmW/all.svg)](../../releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/DeadManWalkingTO/WindowsBackUpScriptDmW.svg)](../../releases/latest)
