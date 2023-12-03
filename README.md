@@ -45,6 +45,8 @@ WindowsBackUpScriptDmW is a backup script for all Microsoft Windows versions.
 Uses [WinRar](https://www.win-rar.com) command line program for compression.
 - RAR 3.61   Copyright (c) 1993-2006 Alexander Roshal   14 Sep 2006 (Shareware version)
 - RAR 5.50 x64   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017 (Shareware version)
+- RAR 6.24 x86   Copyright (c) 1993-2023 Alexander Roshal   3 Oct 2023 (Shareware version)
+- RAR 6.24 x64   Copyright (c) 1993-2023 Alexander Roshal   3 Oct 2023 (Shareware version)
 
 ## Table of Contents
 - [Features](#features)
